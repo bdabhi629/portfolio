@@ -1,0 +1,144 @@
+/* media queries */
+@media (max-width: 1100px) {
+    .nav-links>.navbar-nav>.nav-item>a {
+        display: none;
+    }
+
+    #input,
+    .btn {
+        display: none;
+    }
+
+    .bi {
+        color: #fff;
+        display: block;
+        font-size: 30px;
+    }
+
+    #home .content h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        word-spacing: .3rem;
+        color: #fff;
+    }
+
+    .text {
+        color: crimson;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    #contact form {
+        width: 40rem;
+        margin: 0 auto;
+    }
+
+    .about .fastest .box img {
+        height: 300px;
+        width: 400px;
+    }
+
+
+}
+
+/* media queries */
+@media (max-width: 800px) {
+
+    .fastest {
+        display: inline;
+        align-items: flex-start;
+    }
+
+    .about .fastest .box img {
+        height: 500px;
+        width: 600px;
+    }
+    
+}
+
+
+/* media queries */
+@media (max-width: 600px) {
+    .nav-links>.navbar-nav>.nav-item>a {
+        display: none;
+    }
+
+    #input,
+    .btn {
+        display: none;
+    }
+
+    .bi {
+        color: #fff;
+        display: block;
+        font-size: 30px;
+    }
+
+    #home .content h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        word-spacing: .3rem;
+        color: #fff;
+    }
+
+    .text {
+        color: crimson;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    #contact form {
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+    .about .fastest .box img {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+/* media queries */
+@media (max-width: 400px) {
+    .nav-links>.navbar-nav>.nav-item>a {
+        display: none;
+    }
+
+    #input,
+    .btn {
+        display: none;
+    }
+
+    .bi {
+        color: #fff;
+        display: block;
+        font-size: 30px;
+    }
+
+    #home .content h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        word-spacing: .3rem;
+        color: #fff;
+    }
+
+    .text {
+        color: crimson;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    #contact form {
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .about .fastest .box img {
+        height: 50px;
+        width: 60px;
+    }
+
+    .about .fastest .box {
+        height: 100px;
+    }
+}
